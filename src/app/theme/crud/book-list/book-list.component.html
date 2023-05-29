@@ -1,0 +1,18 @@
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Genre</th>
+    <!-- Ajoutez d'autres colonnes selon les propriétés de votre livre -->
+    <th>Actions</th>
+  </tr>
+  <tr *ngFor="let book of books">
+    <td>{{ book.title }}</td>
+    <td>{{ book.genre }}</td>
+    <!-- Ajoutez d'autres colonnes selon les propriétés de votre livre -->
+    <td>
+      <a [routerLink]="['/book/details', book.id]">Details</a>
+      <a [routerLink]="['/book/edit', book.id]">Edit</a>
+      <a [routerLink]="['/book/delete', book.id]">Delete</a>
+    </td>
+  </tr>
+</table>
