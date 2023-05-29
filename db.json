@@ -1,0 +1,108 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Le Seigneur des Anneaux",
+      "author": "J.R.R. Tolkien",
+      "type": "Fantasy",
+      "location": "Middle Earth",
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "Orgueil et Préjugés",
+      "author": "Jane Austen",
+      "type": "Roman classique",
+      "location": "Angleterre",
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "type": "Dystopie",
+      "location": "Oceania",
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter à l'école des sorciers",
+      "author": "J.K. Rowling",
+      "type": "Fantasy",
+      "location": "Poudlard",
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "title": "Le Petit Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "type": "Conte philosophique",
+      "location": "Planète B-612",
+      "rating": 4.4
+    },
+    {
+      "id": 6,
+      "title": "Crime et Châtiment",
+      "author": "Fiodor Dostoïevski",
+      "type": "Roman psychologique",
+      "location": "Saint-Pétersbourg",
+      "rating": 4.9
+    },
+    {
+      "id": 7,
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "type": "Roman historique",
+      "location": "Paris",
+      "rating": 4.8
+    },
+    {
+      "id": 8,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "type": "Roman classique",
+      "location": "Maycomb",
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "title": "L'Étranger",
+      "author": "Albert Camus",
+      "type": "Roman philosophique",
+      "location": "Algérie",
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "type": "Romantic novel",
+      "location": "England",
+      "rating": 4.5
+    },
+    {
+      "id": 11,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "type": "Novel",
+      "location": "Long Island",
+      "rating": 4.7
+    },
+    {
+      "id": 12,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "type": "Novel",
+      "location": "Spain",
+      "rating": 4.6
+    },
+    {
+      "id": 13,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "type": "Adventure novel",
+      "location": "Sea",
+      "rating": 4.5
+    }
+  ]
+}

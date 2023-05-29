@@ -1,0 +1,40 @@
+
+<div class="container">
+    <mat-card>
+    <h2 class="form-title">ADD BOOK</h2>
+    <div >
+      <mat-form-field appearance="outline"class="form-field">
+        <mat-label>Book title</mat-label>
+        <input matInput placeholder="Title" [(ngModel)]="bookrecords.title">
+      </mat-form-field>
+    </div>
+    <div >
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>The author</mat-label>
+        <input matInput placeholder="Author"[(ngModel)]="bookrecords.author">
+      </mat-form-field>
+    </div>
+    <div >
+      <mat-form-field appearance="outline"class="form-field">
+        <mat-label>Book type</mat-label>
+        <input matInput placeholder="Type"[(ngModel)]="bookrecords.type">
+      </mat-form-field>
+    </div>
+    <div >
+      <mat-form-field appearance="outline"class="form-field">
+        <mat-label>Book location</mat-label>
+        <input matInput placeholder="Location"[(ngModel)]="bookrecords.location">
+      </mat-form-field>
+    </div>
+    <div >
+      <mat-form-field appearance="outline"class="form-field">
+        <mat-label>Book rating</mat-label>
+        <input matInput placeholder="Rating"[(ngModel)]="bookrecords.rating">
+      </mat-form-field>
+    </div>
+    <div>
+        <button mat-raised-button color="primary" type="button" (click)="addRecords()">ADD</button>
+    </div>
+</mat-card>
+  </div>
+  
